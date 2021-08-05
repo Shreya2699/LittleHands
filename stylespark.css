@@ -324,6 +324,7 @@ nav{
     text-align: center;
     background-color: black;
     height:auto;
-    padding:40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color:white;
 }
