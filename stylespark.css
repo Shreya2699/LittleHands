@@ -318,7 +318,10 @@ nav{
 }
 .card-text{
     color:#6F1E51;
-    font-weight: 20px;
+}
+.texting{
+    font-size: 20px;
+    font-weight: bold;
 }
 .Footer{
     text-align: center;
