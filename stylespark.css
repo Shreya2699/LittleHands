@@ -209,7 +209,7 @@ nav{
 
 .iner{
     background: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX3372297.jpg");
-    width:650px;
+    width:750px;
     background-position: center;
    
     
@@ -219,9 +219,110 @@ nav{
     font-size: 30px;
     font-weight: bold;
     padding-top: 5px;
+    color:#40407a;
 }
+.heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5px;
+    color:#40407a;
+    
+}
+.underline{
+    border-bottom: 6px solid green;
+    padding:10px;
+    font-weight: bold;
+}
+
 .fluid{
     width:400px;
-    height:300px;
+    height:auto;
+    margin:20px;
+
     text-align: center;
+    background-color:#f6e58d;
+}
+.donate{
+    color:#6D214F;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.frm{
+    paddinG:10px;
+  
+}
+.para{
+    text-align: left;
+    padding: 10px;
+    color:#182C61;
+    font-weight: bolder;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0,40px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+.para1{
+    text-align: center;
+    color:#b71540;
+    padding:50px;
+    font-weight: bolder;
+    
+}
+.Main12{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:30px;
+}
+.carding{
+    height:267px;
+    width:230px;
+}
+.card-text{
+    color:#6F1E51;
+    font-weight: 20px;
+}
+.Footer{
+    text-align: center;
+    background-color: black;
+    height:50px;
+    color:white;
 }
